@@ -1,12 +1,13 @@
 # twitter-web-clone-react
  React NextJS ve Storybook kullanarak twitter klonu hazırlanması
  
-  
+
  Web site
  https://twitter-web-clone-react-7al4.vercel.app/
  
  Storybook
  https://twitter-web-clone-react-7al4.vercel.app/ui/index.html
+
  
  This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -52,3 +53,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+=======
