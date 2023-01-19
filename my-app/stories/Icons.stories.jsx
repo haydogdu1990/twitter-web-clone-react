@@ -1,10 +1,9 @@
 import React from "react";
 
 import * as Icons from "../components/icons";
-import "./style.css";
 
 export default {
-  title: "Example/Icons",
+  title: "Icons",
 };
 
 export const Icon = () => (

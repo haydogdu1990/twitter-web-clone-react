@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 
 import Button from "../components/button";
@@ -5,18 +6,13 @@ import NavigationButton from "../components/navigation-button";
 import Navigation from "../components/navigation";
 
 import { Home } from "../components/icons";
-import TitleBold from "../components/title-bold";
+import TitleBold from "../components/text-title";
 
 //import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Example/Button",
-  component: Button,
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {
-    backgroundColor: { control: "color" },
-  },
+  title: "Button",
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
