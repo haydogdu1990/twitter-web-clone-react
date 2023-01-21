@@ -2,10 +2,10 @@
  React NextJS ve Storybook kullanarak twitter klonu hazırlanması
  
 
- Web site
+ Web site görüntüle
  https://twitter-web-clone-react-7al4.vercel.app/
  
- Storybook
+ Storybook gürüntüle
  https://twitter-web-clone-react-7al4.vercel.app/ui/index.html
 
  
