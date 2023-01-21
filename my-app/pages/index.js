@@ -5,7 +5,7 @@ import Navigation from "components/navigation";
 function HomePage() {
   return (
     <div>
-      <Navigation />
+      <Navigation selectedKey="home" />
     </div>
   );
 }
