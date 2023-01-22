@@ -1,0 +1,18 @@
+.layout {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  background-color: #333;
+  min-height: 100vh;
+}
+
+@media (min-width: 1022px) {
+  .layout {
+    grid-template-columns: 230px 1fr 230px;
+  }
+}
+
+@media (min-width: 1298px) {
+  .layout {
+    color: red;
+  }
+}

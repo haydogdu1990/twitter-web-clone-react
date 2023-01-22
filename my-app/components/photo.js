@@ -8,7 +8,7 @@ import avatar from "./images/tYRiNFtk_400x400.jpg";
 function Photo({ src = avatar, alt }) {
   return (
     <div className={cn([styles.photo])}>
-      <img className={styles.img} src={src} alt={alt} />
+      <Image className={styles.img} src={avatar} alt={alt} />
     </div>
   );
 }
