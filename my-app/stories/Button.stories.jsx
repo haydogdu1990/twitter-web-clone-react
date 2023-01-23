@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
+import { withKnobs, boolean } from "@storybook/addon-knobs";
 
 import Button from "../components/button";
 import NavigationButton from "../components/navigation-button";
@@ -15,6 +16,7 @@ import Stack from "../components/stack";
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Button",
+  decorators: [withKnobs],
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
@@ -38,4 +40,7 @@ export const NavButton = () => (
   </NavigationButton>
 );
 
-export const Nav = () => <Navigation selectedKey="home" />;
+export const Nav = () => {
+  const flat = boolean("Flat", false);
+  return <Navigation flat={flat} selectedKey="home" />;
+};

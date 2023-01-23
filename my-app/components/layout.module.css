@@ -1,6 +1,6 @@
 .layout {
   display: grid;
-  grid-template-columns: 230px 1fr;
+  grid-template-columns: auto 1fr;
 
   min-height: 100vh;
   max-width: 670px;
@@ -10,12 +10,13 @@
 
 @media (min-width: 1022px) {
   .layout {
-    max-width: 1270px;
-    grid-template-columns: 230px 1fr 230px;
+    max-width: 1060px;
+    grid-template-columns: auto 1fr 300px;
   }
 }
 
 @media (min-width: 1298px) {
   .layout {
+    max-width: 1270px;
   }
 }
