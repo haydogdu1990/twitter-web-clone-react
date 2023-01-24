@@ -1,12 +1,18 @@
 # twitter-web-clone-react
- React NextJS ve Storybook kullanarak twitter klonu hazırlanması
+ Creating a twitter clone using React NextJS and Storybook
  
 
- Web site görüntüle
+ View Website
  https://twitter-web-clone-react-7al4.vercel.app/
  
- Storybook gürüntüle
+ View Storybook
  https://twitter-web-clone-react-7al4.vercel.app/ui/index.html
+ 
+ ### Tools
+- [React](https://reactjs.org)
+- [Next](https://nextjs.org)
+- [Storybook](https://storybook.js.org)
+- [Svgr](https://react-svgr.com)
 
  
  This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
