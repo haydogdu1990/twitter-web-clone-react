@@ -13,6 +13,14 @@
   margin-right: 15px;
 }
 
+.navButton:global(.twitter) {
+  color: var(--c-theme);
+}
+
+.navButton:global(html:not(.light)) {
+  color: white;
+}
+
 .navButtonSelected {
   color: var(--c-theme);
 }
