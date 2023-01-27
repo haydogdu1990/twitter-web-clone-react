@@ -7,7 +7,7 @@ import CONST from "../constants";
 import Main from "./col-main";
 import Sidebar from "./col-sidebar";
 import Extra from "./col-extra";
-import ExtraGecici from "./extra-gecici";
+
 
 
 function Layout({ children }) {
@@ -18,7 +18,7 @@ function Layout({ children }) {
 
       <Main>{children}</Main>
 
-      {size.width > CONST.TABLET_SIZE && <Extra> extra <ExtraGecici/> </Extra>}
+      {size.width > CONST.TABLET_SIZE && <Extra> extra </Extra>}
     </div>
   );
 }
