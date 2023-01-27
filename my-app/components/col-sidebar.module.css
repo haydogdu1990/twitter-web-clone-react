@@ -23,6 +23,11 @@
   margin-botton: 20px;
 }
 
+.tweet button svg {
+    width: 1.3em;
+    height: 1.3em;
+}
+
 @media (min-width: 1298px) {
   .tweet {
     width: 100%;
