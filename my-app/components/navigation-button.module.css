@@ -20,6 +20,23 @@
 :global(html:not(.light)) .navButton:global(.twitter) {
 	 color: white;
 }
+/*scss-to-css 
+.navButton {
+  position: relative;
+  padding: 10px;
+
+  &:global(.twitter) {
+    color: var(--c-theme);
+
+   :global(html:not(.light)) & {
+    color: white;
+    }
+  }
+}
+
+
+
+*/
 
 .navButtonSelected {
   color: var(--c-theme);
