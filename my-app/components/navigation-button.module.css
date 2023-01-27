@@ -17,8 +17,8 @@
   color: var(--c-theme);
 }
 
-.navButton:global(html:not(.light)) {
-  color: white;
+:global(html:not(.light)) .navButton:global(.twitter) {
+	 color: white;
 }
 
 .navButtonSelected {
