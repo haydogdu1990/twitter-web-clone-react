@@ -18,7 +18,7 @@ function Layout({ children }) {
 
       <Main>{children}</Main>
 
-      {size.width > CONST.TABLET_SIZE && <Extra> extra </Extra>}
+      {size.width > CONST.TABLET_SIZE && <Extra/>}
     </div>
   );
 }
