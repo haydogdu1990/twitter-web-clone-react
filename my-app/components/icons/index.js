@@ -26,3 +26,4 @@ export { default as Search } from "./Search";
 export { default as Share } from "./Share";
 export { default as TimelineProp } from "./TimelineProp";
 export { default as Twitter } from "./Twitter";
+export { default as Tweet } from "./Tweet";

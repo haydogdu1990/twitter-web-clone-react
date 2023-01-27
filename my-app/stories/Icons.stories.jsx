@@ -39,6 +39,7 @@ export const Icon = () => (
     <Icons.Share />
     <Icons.TimelineProp />
     <Icons.Twitter />
+    <Icons.Tweet />
   </div>
 );
 
