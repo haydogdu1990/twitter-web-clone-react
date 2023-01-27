@@ -1,7 +1,7 @@
 import React from "react";
 import cn from "classnames";
 
-import styles from "./col-extra.module.css";
+//import styles from "./col-extra.module.css";
 // geçici
 import styles from "./col-extra.css";
 // geçici
