@@ -12,4 +12,4 @@ function GeciciExtra() {
   </div>;
 }
 
-export default Extra;
+export default GeciciExtra;
