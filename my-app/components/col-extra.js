@@ -7,8 +7,10 @@ import styles from "./col-extra.css";
 // geçici
 
 function Extra({ children }) {
-  return <div className={cn(styles.extra)}>{children}
+  //return <div className={cn(styles.extra)}>{children}
+	
   // geçici
+	return <div>
   			<div class="search-bar">
 				<svg viewBox="0 0 24 24" aria-hidden="true">
 					<g>
