@@ -32,6 +32,14 @@ export const MENU = [
     notify: 0,
   },
   {
+    key: "communities",
+    path: "/communities",
+    icon: <Icon.Communities />,
+    iconSelected: <Icon.CommunitiesFill />,
+    title: "Communities",
+    notify: 0,
+  },
+  {
     key: "notifications",
     path: "/notifications",
     icon: <Icon.Notification />,
@@ -45,7 +53,7 @@ export const MENU = [
     icon: <Icon.Messages />,
     iconSelected: <Icon.MessagesFill />,
     title: "Messages",
-    notify: 0,
+    notify: 1,
   },
   {
     key: "bookmarks",
@@ -55,14 +63,7 @@ export const MENU = [
     title: "Bookmarks",
     notify: 0,
   },
-  {
-    key: "lists",
-    path: "/lists",
-    icon: <Icon.Lists />,
-    iconSelected: <Icon.ListsFill />,
-    title: "Lists",
-    notify: 0,
-  },
+
   {
     key: "profile",
     path: "/profile",

@@ -7,8 +7,6 @@
 }
 
 @media (min-width: 1022px) {
-  .sidebar {
-  }
 }
 
 @media (min-width: 1298px) {
@@ -20,7 +18,7 @@
 
 .tweet {
   margin-top: 16px;
-  margin-botton: 20px;
+  margin-bottom: 20px;
 }
 
 .tweet button svg {

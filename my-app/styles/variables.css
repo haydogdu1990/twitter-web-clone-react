@@ -1,11 +1,15 @@
 :root {
-  --c-primary: #e3e9ed;
+  --c-primary: #ffffff;
   --c-theme: rgba(29, 161, 242, 1);
   --c-theme-20: rgba(29, 161, 242, 0.1);
   --c-text-color: #000;
-  --c-border-color: #2f3336;
+  --c-border-color: #eff3f4;
   --c-gray: #6e767d;
   --c-dark-gray: #202327;
+  --c-text-color-notify: white;
+  --c-trends-bcolor: rgb(247, 249, 249);
+  --c-trends-btnbcolor: rgb(15, 20, 25);
+  --c-trends-btncolor: white;
 
   --fade: 120ms;
 }
@@ -17,6 +21,9 @@
   --c-border-color: #2f3336;
   --c-gray: #6e767d;
   --c-dark-gray: #202327;
+  --c-trends-bcolor: rgb(22, 24, 28);
+  --c-trends-btnbcolor: rgb(239, 243, 244);
+  --c-trends-btncolor: #000;
 }
 
 .dim:root {
@@ -26,4 +33,7 @@
   --c-border-color: #2f3336;
   --c-gray: #6e767d;
   --c-dark-gray: #202327;
+  --c-trends-bcolor: rgb(30, 39, 50);
+  --c-trends-btnbcolor: rgb(239, 243, 244);
+  --c-trends-btncolor: #000;
 }

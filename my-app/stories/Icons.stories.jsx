@@ -21,8 +21,8 @@ export const Icon = () => (
     <Icons.Home />
     <Icons.HomeFill />
     <Icons.Like />
-    <Icons.Lists />
-    <Icons.ListsFill />
+    <Icons.Communities />
+    <Icons.CommunitiesFill />
     <Icons.Media />
     <Icons.MessagesFill />
     <Icons.More />

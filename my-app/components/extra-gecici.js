@@ -15,14 +15,14 @@ function ExtraGecici() {
         <div className="trends">
           <header className="trends-header">
             <h2>
-              <span>İlgini çekebilecek gündemler</span>
+              <span>Trends for you</span>
             </h2>
           </header>
           <div className="trends-items">
             {/* Trends Item Start */}
             <div className="trends-item">
               <div>
-                <span>Teknoloji · Gündemdekiler</span>
+                <span>Technology · Trending</span>
                 <div>
                   <svg viewBox="0 0 24 24" aria-hidden="true">
                     <g>
@@ -40,7 +40,7 @@ function ExtraGecici() {
             {/* Trends Item Start */}
             <div className="trends-item">
               <div>
-                <span>Ankara konumunda gündemde</span>
+                <span>Trending in Ankara</span>
                 <div>
                   <svg viewBox="0 0 24 24" aria-hidden="true">
                     <g>
@@ -51,14 +51,14 @@ function ExtraGecici() {
                   </svg>
                 </div>
               </div>
-              <strong className="hashtag">#GezilecekYerler</strong>
+              <strong className="hashtag">#PlacesToVisit</strong>
               <span>39 B Tweet</span>
             </div>
             {/* Trends Item End */}
             {/* Trends Item Start */}
             <div className="trends-item">
               <div>
-                <span>Müzik · Gündemdekiler</span>
+                <span>Müsic · Trending</span>
                 <div>
                   <svg viewBox="0 0 24 24" aria-hidden="true">
                     <g>
@@ -76,7 +76,7 @@ function ExtraGecici() {
             {/* Trends Item Start */}
             <div className="trends-item">
               <div>
-                <span>Dünya konumunda gündemde</span>
+                <span>Trending in World</span>
                 <div>
                   <svg viewBox="0 0 24 24" aria-hidden="true">
                     <g>
@@ -94,7 +94,7 @@ function ExtraGecici() {
             {/* Trends Item Start */}
             <div className="trends-item">
               <div>
-                <span>Gündemdekiler</span>
+                <span>Trending</span>
                 <div>
                   <svg viewBox="0 0 24 24" aria-hidden="true">
                     <g>
@@ -105,18 +105,18 @@ function ExtraGecici() {
                   </svg>
                 </div>
               </div>
-              <strong className="hashtag">#SevgililerGünü</strong>
+              <strong className="hashtag">#ValentinesDay</strong>
               <span>2.717 Tweet</span>
             </div>
             {/* Trends Item End */}
             <div className="more-btn">
-              <span>Daha Fazla Göster</span>
+              <span>Show more</span>
             </div>
           </div>
         </div>
         <div className="who-to-follow">
           <header className="who-to-follow-header">
-            <h2>Kimi takip etmeli</h2>
+            <h2>You might like</h2>
           </header>
           <div className="users">
             {/* User Item Start */}
@@ -133,7 +133,7 @@ function ExtraGecici() {
                   <strong className="user-name">Jack London</strong>
                   <span className="tag">@JackL</span>
                 </div>
-                <button className="follow-btn">Takip Et</button>
+                <button className="follow-btn">Follow</button>
               </div>
             </div>
             {/* User Item End */}
@@ -147,7 +147,7 @@ function ExtraGecici() {
                   <strong className="user-name">Martin Eden</strong>
                   <span className="tag">@martinE</span>
                 </div>
-                <button className="follow-btn">Takip Et</button>
+                <button className="follow-btn">Follow</button>
               </div>
             </div>
             {/* User Item End */}
@@ -164,25 +164,27 @@ function ExtraGecici() {
                   <strong className="user-name">Alex de Souza</strong>
                   <span className="tag">@alex</span>
                 </div>
-                <button className="follow-btn">Takip Et</button>
+                <button className="follow-btn">Follow</button>
               </div>
             </div>
             {/* User Item End */}
             <div className="more-btn">
-              <span>Daha Fazla Göster</span>
+              <span>Show more</span>
             </div>
           </div>
         </div>
-        <hr className="line" />
+
         <footer>
           <nav>
-            <span>Hizmet Şartları</span>
-            <span>Gizlilik Politikası</span>
-            <span>Çerez Politikası</span>
-            <span>İletişim Bilgileri</span>
-            <span>Reklam Bilgisi</span>
+            <span>Terms of Service</span>
+            <span>Privacy Policy</span>
+            <span>Cookie Policy</span>
+            <span>Imprint</span>
+            <span>Accessibility</span>
+            <span>Ads info</span>
+
             <span>
-              Daha Fazla{" "}
+              More{" "}
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <g>
                   <circle cx={5} cy={12} r={2} />
