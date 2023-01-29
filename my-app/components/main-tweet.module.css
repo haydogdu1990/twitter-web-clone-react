@@ -3,7 +3,7 @@
   grid-template-areas: "avatar body";
   grid-template-columns: 50px 1fr;
   grid-gap: 15px;
-  padding: 10px 15px;
+  padding: 12px 15px;
   border-bottom: 1px solid var(--c-border-color);
 }
 .avatar {
@@ -36,12 +36,27 @@
 
 .footerButton {
   flex: 1;
+  display: flex;
+  align-items: center;
+  color: var(--c-gray);
+}
+.footerButton span {
+  font-size: 0.9em;
+}
+
+.footerButton:first-child {
+  margin-left: -8px;
 }
 
 .actionButton {
-  color: var(--c-gray);
+  color: inherit;
 }
 
 .actionButton svg {
   font-size: 19px;
+}
+
+.img {
+  border-radius: 15px;
+  margin-top: 10px;
 }

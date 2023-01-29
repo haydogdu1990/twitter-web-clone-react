@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  position: sticky;
+  top: 0;
 }
 
 @media (min-width: 1022px) {
@@ -12,7 +15,7 @@
 @media (min-width: 1298px) {
   .sidebar {
     align-items: flex-start;
-    padding-right: 46px;
+    padding-right: 20px;
   }
 }
 
