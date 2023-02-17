@@ -17,7 +17,7 @@ function Layout({ children }) {
       <Sidebar flat={size.width < CONST.DESTOP_SIZE}>sidebar</Sidebar>
 
       <Main>
-        //<TweetSend/>
+        <TweetSend/>
         {children}
      </Main>
 
