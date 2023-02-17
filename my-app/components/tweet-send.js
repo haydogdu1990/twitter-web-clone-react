@@ -4,9 +4,7 @@ import styles from "./tweet-send.module.css";
 function TweetSend() {
   return (
     <>
-        var NewComponent = React.createClass({
-  render: function() {
-    return (
+        
 
       <div className="grid-container">
         <div className="avatar">
@@ -43,9 +41,7 @@ function TweetSend() {
           </div>
         </div> 
       </div>
-    );
-  }
-});
+    
 
 
 
