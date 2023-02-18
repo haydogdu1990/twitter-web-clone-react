@@ -16,10 +16,7 @@ function Layout({ children }) {
     <div className={cn(styles.layout)}>
       <Sidebar flat={size.width < CONST.DESTOP_SIZE}>sidebar</Sidebar>
 
-      <Main>
-        <TweetSend/>
-        {children}
-     </Main>
+      <Main>{children}</Main>
 
       {size.width > CONST.TABLET_SIZE && (
         <Extra>
