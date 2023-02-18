@@ -1,0 +1,218 @@
+.rightside {
+  padding: 12px 0 64px 0;
+  width: 350px;
+  margin-left: 30px;
+}
+.rightside footer nav {
+  padding: 0 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rightside footer span,
+.rightside footer svg {
+  height: 1em;
+  vertical-align: text-bottom;
+  margin: 2px 0;
+  padding-right: 12px;
+  line-height: 16px;
+  color: rgb(136, 153, 166);
+  fill: currentColor;
+  font-size: 13px;
+}
+.rightside footer svg {
+  margin: 0;
+}
+.rightside footer span:not(:last-child):hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.searchbar {
+  position: relative;
+}
+.searchbar svg {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  fill: #8899a6;
+}
+.profile-btn svg,
+.details svg,
+.searchbar svg {
+  height: 1.25em;
+  margin-left: 5px;
+  vertical-align: bottom;
+}
+.search {
+  border-radius: 30px;
+  border: none;
+  width: 290px;
+  height: 46px;
+  background-color: var(--c-trends-bcolor);
+  padding-left: 60px;
+}
+.search::placeholder {
+  font-size: 16px;
+}
+.search,
+.tweet input {
+  color: #fff;
+}
+.rightcolumn input::placeholder,
+.search::placeholder {
+  font-size: 20px;
+  color: #8899a6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+.trends,
+.whotofollow {
+  background-color: var(--c-trends-bcolor);
+  border-radius: 15px;
+  margin-top: 12px;
+}
+
+.trends svg {
+  fill: #fff;
+  height: 1.75rem;
+}
+.contentheader div,
+.trendsheader div,
+.trendsitem > div > div {
+  display: flex;
+  margin-right: -10px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+}
+.trendsheader div {
+  margin-right: 0;
+}
+.contentheader svg,
+.trendsheader svg {
+  fill: var(--main-color);
+  width: 22px;
+  height: 22px;
+}
+.trendsheader,
+.trendsitem,
+.whotofollowheader,
+.user {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+.trendsheader > h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.trendsheader svg {
+  fill: var(--main-color);
+}
+.trendsitem svg,
+.trendsheader svg {
+  vertical-align: text-bottom;
+}
+
+.trendsitem > div > div:hover svg {
+  fill: var(--main-color);
+}
+
+.trendsitem {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition-duration: background-color 0.2s;
+}
+.trendsitem:hover,
+.morebtn:hover,
+.user:hover {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+.trendsitem > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trendsitem span,
+.trendsitem svg {
+  font-size: 13px;
+  height: 1.25rem;
+  color: rgb(136, 153, 166);
+  fill: rgb(136, 153, 166);
+}
+.trendsitem > span {
+  margin-top: 4px;
+}
+
+.trendsitem > div {
+  position: relative;
+}
+.trendsitem > div > div {
+  position: absolute;
+  width: 34.75px;
+  height: 34.75px;
+  top: -7px;
+  right: 0px;
+}
+.hashtag {
+  font-weight: bold;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.user img {
+  margin-right: 12px;
+}
+.user > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  color: rgb(136, 153, 166);
+  fill: rgb(136, 153, 166);
+  display: block;
+}
+.followbtn {
+  min-height: 32px;
+  min-width: 32px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 1em;
+  color: var(--c-trends-btncolor);
+  border: 0px solid currentColor;
+  border-radius: 9999px;
+  background-color: var(--c-trends-btnbcolor);
+}
+.followbtn:hover {
+  background-color: var(--c-trends-btnbcolor);
+}
+.morebtn {
+  padding: 16px;
+  color: var(--main-color);
+  cursor: pointer;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.svgicon {
+  min-width: 32px;
+  height: 32px;
+
+  fill: #4691f6;
+  margin: 0 10px 0 10px;
+  background-color: white;
+  border-radius: 999px;
+
+  padding: 10px;
+}
