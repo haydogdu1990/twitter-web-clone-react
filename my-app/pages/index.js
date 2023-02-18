@@ -3,10 +3,13 @@ import React from "react";
 
 import Layout from "../components/layout";
 import tweetPhoto from "../components/images/fun.jpg";
+import TweetSend from "../components/tweet-send";
 
 function HomePage() {
   return (
     <Layout>
+      <TweetSend />
+
       <MainTweet
         name="Hasan Aydoğdu"
         slug="hsnaydgd"
