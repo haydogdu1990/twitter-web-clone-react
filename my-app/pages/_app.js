@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   const [theme, themeSet] = useState(null);
 
   useLayoutEffect(() => {
-    const theme = localStorage.getItem("THEME") || "light";
+    const theme = localStorage.getItem("THEME") || "dark";
     themeSet(theme);
   }, []);
 
