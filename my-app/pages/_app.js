@@ -11,6 +11,7 @@ export default function App({ Component, pageProps }) {
     const theme = localStorage.getItem("THEME") || "dark";
     themeSet(theme);
   }, []);
+  
 
   const changeTheme = (theme) => {
     themeSet(theme);
